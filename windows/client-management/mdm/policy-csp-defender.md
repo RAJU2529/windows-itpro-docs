@@ -2317,6 +2317,15 @@ Added in Windows 10, version 1607. Specifies the level of detection for potenti
 > Potentially unwanted applications (PUA) are a category of software that can cause your machine to run slowly, display unexpected ads, or at worst, install other software which might be unexpected or unwanted. By default in Windows 10 (version 2004 and later), Microsoft Defender Antivirus blocks apps that are considered PUA, for Enterprise (E5) devices. For more information about PUA, see [Detect and block potentially unwanted applications](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus).
 
 <!--/Description-->
+<!--ADMXMapped-->
+ADMX Info:  
+-   GP English name: *Configure detection for potentially unwanted applications*
+-   GP name: *Root_PUAProtection*
+-   GP element: *Root_PUAProtection*
+-   GP path: *Windows Components/Microsoft Defender Antivirus*
+-   GP ADMX file name: *WindowsDefender.admx*
+
+<!--/ADMXMapped-->
 <!--SupportedValues-->
 The following list shows the supported values:
 
@@ -2324,7 +2333,7 @@ The following list shows the supported values:
 -   1 – PUA Protection on. Detected items are blocked. They will show in history along with other threats.
 -   2 – Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.
 
-<!--/SupportedValues-->
+<!--SupportedValues-->
 <!--/Policy-->
 
 <hr/>
@@ -3112,6 +3121,7 @@ Footnotes:
 - 6 - Available in Windows 10, version 1903.
 - 7 - Available in Windows 10, version 1909.
 - 8 - Available in Windows 10, version 2004.
+- 9 - Available in Windows 10, version 20H2.
 
 <!--/Policies-->
 
